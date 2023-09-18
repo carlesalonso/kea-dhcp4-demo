@@ -22,7 +22,7 @@ Un arxiu JSON utilitzen una notació específica i utilitzen una sèrie d'elemen
 
 - **Claus {}**: serveixen per delimitar els objectes i són obligatòries per iniciar i finalitzar el contingut.
 - **Corxets []**: serveixen per delimitar els arrays.
-- **Comes ,***: serveixen per separar els elements d'un array o els atributs d'un objecte, per tant, no s'utilitzen al final d'un array o objecte.
+- **Comes ,**: serveixen per separar els elements d'un array o els atributs d'un objecte, per tant, no s'utilitzen al final d'un array o objecte.
 - **Dos punts :**: serveixen per separar els noms dels atributs dels seus valors.
 
 ### Exemple arxiu `kea-dhcp4.conf`
