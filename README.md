@@ -14,7 +14,7 @@ sudo apt install kea-dhcp4-server
 
 El servei kea ofereix diversos serveis: dhcpv4, dhcpv6, DDNS (DNS dinàmic) i una API per gestionar el servei. En aquest exemple només es configurarà el servei de dhcpv4.
 
-L'arxiu de configuració és `kea-dhcp4.conf`, es tracta d'un arxiu en format JSON.
+L'arxiu de configuració és [`kea-dhcp4.conf`](kea-dhcp4.conf), es tracta d'un arxiu en format JSON.
 
 ### Característiques format JSON
 
