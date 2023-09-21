@@ -27,7 +27,7 @@ Un arxiu JSON utilitzen una notació específica i utilitzen una sèrie d'elemen
 
 ### Exemple arxiu `kea-dhcp4.conf`
 
-```json
+```conf
 {
 # Aquí comença la configuració per DHCPv4
    "Dhcp4": {
