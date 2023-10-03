@@ -82,8 +82,6 @@ Un arxiu JSON utilitzen una notació específica i utilitzen una sèrie d'elemen
                         "ip-address": "192.169.1.50"
                     }]
 
-## Author:
-Carlos Alonso Martínez                  
                 
               }
         ]
@@ -91,3 +89,6 @@ Carlos Alonso Martínez
 
 }
 ```
+
+## Autor:
+Carlos Alonso Martínez                  
