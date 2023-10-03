@@ -81,7 +81,9 @@ Un arxiu JSON utilitzen una notació específica i utilitzen una sèrie d'elemen
                         "hw-address": "08:00:27:57:20:fc",
                         "ip-address": "192.169.1.50"
                     }]
-                                
+
+## Author:
+Carlos Alonso Martínez                  
                 
               }
         ]
