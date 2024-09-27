@@ -52,7 +52,7 @@ Un arxiu JSON utilitzen una notació específica i utilitzen una sèrie d'elemen
         "lease-database": {
                 "type": "memfile",
                 "persist": true,
-                "name": "/var/lib/kea/dhcp4.leases"
+                "name": "/var/lib/kea/kea-leases4.csv"
         },
 
 # Definim les diferents subxarxes que vulguem tenir
