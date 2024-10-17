@@ -33,8 +33,9 @@ Un arxiu JSON utilitzen una notació específica i utilitzen una sèrie d'elemen
    "Dhcp4": {
 
 # Indiquem per quina interfície funcionarà el servidor DHCP
+# s'ha de posar la que correspongui en cada cas
         "interfaces-config": {
-                "interfaces": [ "enp0s8" ]
+                "interfaces": [ "enp0s3" ]
                 
         },
 
@@ -59,13 +60,13 @@ Un arxiu JSON utilitzen una notació específica i utilitzen una sèrie d'elemen
         "subnet4": [
                 {
                   # Indiquem la subxarxa de treball
-                  "subnet": "192.169.1.0/24",
+                  "subnet": "192.168.1.0/24",
                   # Aquí indicarem quina adreça de porta d'enllaç i 
                   # servidor DNS enviem als clients
                   "option-data": [
                     {
                         "name": "routers",
-                        "data": "192.169.1.254"
+                        "data": "192.168.1.254"
                     },
                     {
                          "name": "domain-name-servers",
@@ -74,12 +75,12 @@ Un arxiu JSON utilitzen una notació específica i utilitzen una sèrie d'elemen
 
                   # Al pool s'indica el conjunt d'adreces dins la subxarxa 
                   # que s'assignaran via DHCP
-                   "pools": [ { "pool": "192.169.1.100-192.169.1.199" } ],
+                   "pools": [ { "pool": "192.168.1.100-192.168.1.199" } ],
                  # Aquí posem la reserva
                    "reservations": [
                      {
                         "hw-address": "08:00:27:57:20:fc",
-                        "ip-address": "192.169.1.50"
+                        "ip-address": "192.168.1.50"
                     }]
 
                 
